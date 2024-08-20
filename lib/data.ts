@@ -4,6 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import RentalMotor from "@/public/homepage.png";
 import JelajahKalbar from "@/public/JelajahKalbar.png";
+import HealthCare from "@/public/healthCare.png";
 
 export const links = [
     {
@@ -58,6 +59,13 @@ export const projectsData = [
         tags: ["HTML", "CSS", "Javascript"],
         imageUrl: JelajahKalbar,
     },
+    {
+        title: "HealthCare",
+        description:
+            "Next.js patient management website that using Appwrite as backend.",
+        tags: ["Next.js 14", "Typescript", "Tailwind CSS", "Appwrite", "Framer Motion", "Shadcn"],
+        imageUrl: HealthCare,
+    }
 ] as const;
 
 export const skillsData = [
