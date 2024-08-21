@@ -38,7 +38,7 @@ export const experiencesData = [
         title: "SMK Raden Umar Said Kudus",
         location: "Kudus, Indonesia",
         description:
-            "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+            "I studied at SMK Raden Umar Said Kudus, majoring in Software Engineering.",
         icon: React.createElement(LuGraduationCap),
         date: "2022 - Present",
     },
@@ -62,7 +62,7 @@ export const projectsData = [
     {
         title: "HealthCare",
         description:
-            "Next.js patient management website that using Appwrite as backend.",
+            "Next.js patient management website, using Appwrite as backend.",
         tags: ["Next.js 14", "Typescript", "Tailwind CSS", "Appwrite", "Framer Motion", "Shadcn"],
         imageUrl: HealthCare,
     }
