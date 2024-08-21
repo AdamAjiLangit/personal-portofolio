@@ -48,8 +48,8 @@ export const projectsData = [
     {
         title: "Rental Motor Kudus",
         description:
-            "I worked as a frontend developer on this project for 5 month. This project is the final project of the school",
-        tags: ["Next.js 13", "React", "Tailwind CSS"],
+            "This website is used to book motorcycles, I worked as a frontend developer on this project for 5 month. This project is the final project of the school",
+        tags: ["Next.js 13", "React", "Tailwind CSS", "Framer Motion", "Shadcn"],
         imageUrl: RentalMotor,
     },
     {
