@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import RentalMotor from "@/public/homepage.png";
 import JelajahKalbar from "@/public/JelajahKalbar.png";
 import HealthCare from "@/public/healthCare.png";
+import AniPortofolio from "@/public/image.png";
 
 export const links = [
     {
@@ -65,6 +66,13 @@ export const projectsData = [
             "Next.js patient management website, using Appwrite as backend.",
         tags: ["Next.js 14", "Typescript", "Tailwind CSS", "Appwrite", "Framer Motion", "Shadcn"],
         imageUrl: HealthCare,
+    },
+    {
+        title: "Animation Portfolio",
+        description:
+            "Animations portfolio website, using Framer Motion & GSAP.",
+        tags: ["Next.js 14", "Typescript", "Tailwind CSS", "Framer Motion", "GSAP"],
+        imageUrl: AniPortofolio,
     }
 ] as const;
 
