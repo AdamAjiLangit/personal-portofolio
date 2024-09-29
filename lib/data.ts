@@ -50,8 +50,9 @@ export const projectsData = [
         title: "Rental Motor Kudus",
         description:
             "This website is used to book motorcycles, I worked as a frontend developer on this project for 5 month. This project is the final project of the school",
-        tags: ["Next.js 13", "React", "Tailwind CSS", "Framer Motion", "Shadcn"],
+        tags: ["Next.js 13", "React", "Tailwind CSS", "Framer Motion"],
         imageUrl: RentalMotor,
+        link: "https://rental-motor-kudus.vercel.app/",
     },
     {
         title: "JelajahKalbar",
@@ -59,6 +60,7 @@ export const projectsData = [
             "I worked as a frontend developer on this project for 3 month. Users can learn about Kalimantan Barat Indonesia.",
         tags: ["HTML", "CSS", "Javascript"],
         imageUrl: JelajahKalbar,
+        link: "https://website-kalimantan-barat.vercel.app/",
     },
     {
         title: "Animation Portfolio",
@@ -66,6 +68,7 @@ export const projectsData = [
             "Animations portfolio website, using Framer Motion & GSAP.",
         tags: ["Next.js 14", "Typescript", "Tailwind CSS", "Framer Motion", "GSAP"],
         imageUrl: AniPortofolio,
+        link: "https://animation-portofolio.vercel.app/",
     },
     {
         title: "HealthCare",
@@ -73,6 +76,7 @@ export const projectsData = [
             "Next.js patient management website, using Appwrite as backend.",
         tags: ["Next.js 14", "Typescript", "Tailwind CSS", "Appwrite", "Framer Motion", "Shadcn"],
         imageUrl: HealthCare,
+        link: "https://health-care-lemon.vercel.app/",
     },
 ] as const;
 
@@ -88,4 +92,5 @@ export const skillsData = [
     "Tailwind",
     "MySQL",
     "Framer Motion",
+    "GSAP",
 ] as const;
