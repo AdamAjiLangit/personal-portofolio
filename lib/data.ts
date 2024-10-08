@@ -6,6 +6,7 @@ import RentalMotor from "@/public/homepage.png";
 import JelajahKalbar from "@/public/JelajahKalbar.png";
 import HealthCare from "@/public/healthCare.png";
 import AniPortofolio from "@/public/aniPortofolio.png";
+import Ratio from "@/public/Ratio.png";
 
 export const links = [
     {
@@ -78,6 +79,14 @@ export const projectsData = [
         imageUrl: HealthCare,
         link: "https://health-care-lemon.vercel.app/",
     },
+    {
+        title: "Ratio",
+        description:
+        "Smooth Scrolling Website Using Lenis And GSAP With Native",
+        tags: ["HTML", "CSS", "Javascript", "GSAP", "Lenis"],
+        imageUrl: Ratio,
+        link: "https://gsap-animation-adam.vercel.app/",
+    }
 ] as const;
 
 export const skillsData = [
