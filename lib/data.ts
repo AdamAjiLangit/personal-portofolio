@@ -85,7 +85,7 @@ export const projectsData = [
         "Smooth Scrolling Website Using Lenis And GSAP With Native",
         tags: ["HTML", "CSS", "Javascript", "GSAP", "Lenis"],
         imageUrl: Ratio,
-        link: "https://gsap-animation-adam.vercel.app/",
+        link: "https://ratio-adam.vercel.app/",
     }
 ] as const;
 
