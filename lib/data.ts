@@ -7,6 +7,8 @@ import JelajahKalbar from "@/public/JelajahKalbar.png";
 import HealthCare from "@/public/healthCare.png";
 import AniPortofolio from "@/public/aniPortofolio.png";
 import Ratio from "@/public/Ratio.png";
+import Cozy from "@/public/Cozy.png";
+import { link } from "fs";
 
 export const links = [
     {
@@ -67,7 +69,7 @@ export const projectsData = [
         title: "Animation Portfolio",
         description:
             "Animations portfolio website, using Framer Motion & GSAP.",
-        tags: ["Next.js 14", "Typescript", "Tailwind CSS", "Framer Motion", "GSAP"],
+        tags: ["Next.js 14", "React", "Tailwind CSS", "Framer Motion", "GSAP"],
         imageUrl: AniPortofolio,
         link: "https://animation-portofolio.vercel.app/",
     },
@@ -86,6 +88,13 @@ export const projectsData = [
         tags: ["HTML", "CSS", "Javascript", "GSAP", "Lenis"],
         imageUrl: Ratio,
         link: "https://ratio-adam.vercel.app/",
+    },
+    {
+        title: "Cozy",
+        description: "Cozy, a website that provides a variety of cozy furniture.",
+        tags: ["Next.js 14", "React", "Tailwind CSS", "Framer Motion", "GSAP"],
+        imageUrl: Cozy,
+        link: "https://cozy-adam.vercel.app/",
     }
 ] as const;
 
