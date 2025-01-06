@@ -9,6 +9,7 @@ import AniPortofolio from "@/public/aniPortofolio.png";
 import Ratio from "@/public/Ratio.png";
 import Cozy from "@/public/Cozy.png";
 import AgenUmroh from "@/public/agenUmroh.png";
+import Creation from "@/public/creationHero.png";
 import { link } from "fs";
 
 export const links = [
@@ -58,6 +59,14 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+    {
+        title: "Creation",
+        description:
+            "The Creative Creations landing page is built to demonstrate the possibilities of modern web animation and its ability to create memorable user experiences.",
+        tags: ["Next.js 15", "React", "Tailwind CSS", "Framer Motion", "GSAP"],
+        imageUrl: Creation,
+        link: "https://creation-one.vercel.app/",
+    },
     {
         title: "Agen Umroh🕋 - Admin Dashboard",
         description:
