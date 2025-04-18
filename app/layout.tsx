@@ -10,8 +10,8 @@ import Footer from '@/components/main/footer';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Adam | Personal Portfolio',
-  description: 'Adam is a web developer with a passion for design.',
+  title: 'Adam Aji Langit | Frontend Developer & Web Animation Enthusiast',
+  description: 'Official portfolio of Adam Aji Langit — a passionate Frontend Developer specializing in Javascript, Typescript, React, Next.js, GSAP, and Framer Motion. Explore my work, experience at PT. Humanika Mitra Solusi and PT. Minilemon Nusantara, and projects built with dynamic, responsive web animations.',
 }
 
 export default function RootLayout({
